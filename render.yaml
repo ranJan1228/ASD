@@ -1,0 +1,37 @@
+services:
+  - type: web
+    name: main-server
+    env: python
+    buildCommand: chmod +x build.sh && ./build.sh
+    startCommand: gunicorn server:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.0
+      - key: PYTHONUNBUFFERED
+        value: "1"
+    healthCheckPath: /api/health
+    autoDeploy: true
+
+  - type: web
+    name: colour-server
+    env: python
+    buildCommand: chmod +x build.sh && ./build.sh
+    startCommand: python colour.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.0
+      - key: PYTHONUNBUFFERED
+        value: "1"
+    autoDeploy: true
+
+  - type: web
+    name: gesture-server
+    env: python
+    buildCommand: chmod +x build.sh && ./build.sh
+    startCommand: python gesture_server.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.0
+      - key: PYTHONUNBUFFERED
+        value: "1"
+    autoDeploy: true 
