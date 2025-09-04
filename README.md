@@ -1,35 +1,44 @@
 # Autism-Skills-Training-Games
-make readme file professional not look like created by ai "# Autism Skills Training Games
+# ASD Project – Autism Skills Training Games
 
-This project is designed to support **Autism Spectrum Disorder (ASD)** skill development through interactive games.  
-It focuses on improving **emotion recognition, gesture understanding, and cognitive training** using a blend of **AI + web technologies**.
+This project is developed to support skill-building for individuals with Autism Spectrum Disorder (ASD).  
+It combines **gesture recognition** and **emotion detection** with engaging, game-based activities.  
+The goal is to create an interactive, user-friendly tool that helps improve communication, social, and cognitive skills.
 
 ---
 
-## 🚀 Features
-- 🎭 **Emotion Recognition** – detect and respond to facial expressions.
-- ✋ **Gesture Training** – practice common gestures for communication.
-- 🎮 **Mini Games**:
-  - Color Game
-  - Shape Game
-  - Emotion Mimic Game
-  - Eye Tracking Game
-  - Facial Recognition Game
-- 👤 User authentication (login/signup).
-- 📊 Progress tracking and profile dashboard.
+## 🚀 Key Features
+- 🎭 Real-time **facial expression and emotion detection**
+- ✋ **Gesture recognition** for interactive learning
+- 🎮 Multiple training games:
+  - Color Matching
+  - Shape Recognition
+  - Emotion Mimic
+  - Eye Tracking
+  - Facial Recognition
+- 🔐 Secure **user authentication** (login & signup)
+- 📊 **Progress tracking** with profile dashboard
+- 💻 Responsive design for smooth use across devices
 
 ---
 
 ## 🛠 Tech Stack
-- **Frontend:** React + TypeScript + Tailwind CSS + Vite  
-- **Backend:** Python (Flask/FastAPI)  
-- **Other Tools:** Firebase, Render, Vercel  
+- **Frontend:** React, TypeScript, Tailwind CSS, Vite  
+- **Backend:** Python (Flask / FastAPI)  
+- **Deployment & Tools:** Firebase, Vercel, Render  
 
 ---
 
-## ⚡ Installation & Setup
-1. Clone the repository:
+## ⚡ Getting Started
+
+### Prerequisites
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/) (for frontend)
+- [Python 3.x](https://www.python.org/) (for backend)
+
+### Installation
+
+1. Clone this repository:
    ```bash
    git clone https://github.com/ranJan1228/ASD.git
    cd ASD
-"
